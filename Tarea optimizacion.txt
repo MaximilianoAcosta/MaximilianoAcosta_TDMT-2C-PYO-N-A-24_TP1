@@ -1,0 +1,13 @@
+1. made atlas from asset folder size power of 2
+2. removed unneded assets from the folder
+3. adjusted camera clipping plane and fov
+4. disabled oclussion culling if not used.
+5. disabled camera post processing	
+6. set all assets as Sprite multiple mode.
+7. uncheck Generate Psysics Shape.
+8. set max size for compresion
+9. create player hud bars from the same recolored sprite
+10. set non moving objects as static
+11. made a separate canvas for the player hud, the menu buttons, the controller, and the menus.
+12. the controller and buttons remain as raycast target, the rest is removed.
+13. set main camera in the canvas config
